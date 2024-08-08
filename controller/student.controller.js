@@ -18,40 +18,7 @@ exports.index = (req, res) => {
                 "image": "https://example.com/images/alice.jpg",
                 "bloodGroup": "O+",
                 "batch": "Batch 2025"
-            },
-            {
-                "stud_name": "Jay",
-                "enrollment": "230823056",
-                "program": "Electrical Engineering",
-                "semester": "5th",
-                "contact": {
-                    "email": "bob.smith@example.com",
-                    "mobile": "6142926587",
-                    "address": "456 Elm St, Metropolis, USA"
-                },
-                "dateOfBirth": "2001-08-22T00:00:00.000Z",
-                "gender": "Male",
-                "image": "https://example.com/images/bob.jpg",
-                "bloodGroup": "A-",
-                "batch": "Batch 2024"
-            },
-            {
-                "stud_name": "jeet",
-                "enrollment": "230823045",
-                "program": "Mechanical Engineering",
-                "semester": "2nd",
-                "contact": {
-                    "email": "jeet@example.com",
-                    "mobile": "5629265412",
-                    "address": "789 Oak St, Big City, USA"
-                },
-                "dateOfBirth": "2003-12-01T00:00:00.000Z",
-                "gender": "Male",
-                "image": "https://example.com/images/carol.jpg",
-                "bloodGroup": "B+",
-                "batch": "Batch 2026"
             }
-
         ],
         messages: "Retrieved Successfully"
     });
